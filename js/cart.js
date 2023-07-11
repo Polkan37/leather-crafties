@@ -87,6 +87,10 @@ class Cart {
     }
     saveCart() {
       localStorage.setItem("cart", JSON.stringify(this.cart));
+<<<<<<< HEAD
+=======
+      console.log('JSON.stringify(this.cart): ', JSON.stringify(this.cart));
+>>>>>>> 2700feb229b4ee7246a7c308711444267873e585
     }
     updateBadge() {
         if(Object.keys(this.cart).length) {
