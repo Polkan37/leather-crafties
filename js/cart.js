@@ -87,7 +87,6 @@ class Cart {
     }
     saveCart() {
       localStorage.setItem("cart", JSON.stringify(this.cart));
-      console.log('JSON.stringify(this.cart): ', JSON.stringify(this.cart));
     }
     updateBadge() {
         if(Object.keys(this.cart).length) {
