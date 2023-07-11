@@ -1,1 +1,1 @@
-import("./components/burger.js");
+import("./js/burger.js");
