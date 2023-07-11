@@ -58,8 +58,7 @@ li {
   list-style: none;
 }
 
-img {
-}
+img {}
 
 h1,
 h2,
@@ -94,6 +93,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .title {
   color: var(--h2-color);
   font-size: var(--h2--font-size);
@@ -102,6 +102,7 @@ body {
   text-align: center;
   line-height: 1.1;
 }
+
 .button {
   margin-top: 24px;
   padding: 13px 30px 12px;
@@ -113,13 +114,16 @@ body {
   font-weight: var(--font-light);
   transition: background-color 0.3s ease-in 0.1s;
 }
+
 .button:hover {
-    background-color: var(--main-text-color) !important;
-    color: inherit;
+  background-color: var(--main-text-color) !important;
+  color: inherit;
 }
+
 .main {
   flex: 1 1 auto;
 }
+
 .alert-container {
   position: fixed;
   bottom: 0;
@@ -127,6 +131,7 @@ body {
   right: 0;
   z-index: 9999;
 }
+
 .cart {
   display: flex;
   align-items: center;
