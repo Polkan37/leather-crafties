@@ -94,6 +94,20 @@
   transform: rotate(45deg);
 }
 
+.navigation__cart{
+  position: fixed;
+  top: 2rem;
+  right: 1rem;
+  background: #eeeeee;
+  border: 1px solid #cacaca;
+  border-radius: 50%;
+}
+.cart-badge {
+  position: absolute;
+  bottom: -20px;
+  right: -10px;
+}
+
 @media (min-width: 992px) {
   .navigation-burger {
     display: none;
